@@ -1,0 +1,1 @@
+(function($){"use strict";$('.nicdark_open_navigation_1_sidebar_content').on("click",function(event){$('.nicdark_navigation_1_sidebar_content').css({'right':'0px',});});$('.nicdark_close_navigation_1_sidebar_content').on("click",function(event){$('.nicdark_navigation_1_sidebar_content').css({'right':'-300px'});});})(jQuery);

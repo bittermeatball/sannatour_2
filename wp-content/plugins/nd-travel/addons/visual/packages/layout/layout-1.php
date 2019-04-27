@@ -224,7 +224,7 @@ $str .= '
 
                 <p class="nd_travel_packages_pg_l1_text_preview"><b>Ngày hết chương trình tour : </b></p>
                 <p class="nd_travel_packages_pg_l1_text_preview">'.$nd_travel_meta_box_availability_to.'</p>
-                <p class="nd_travel_packages_pg_l1_text_preview">'.$nd_travel_meta_box_text_preview.'</p>
+                <p class="nd_travel_packages_pg_l1_text_preview">'.substr($nd_travel_meta_box_text_preview,0,75).'</p>
                 <div class="nd_travel_section nd_travel_height_20"></div>
                 <a href="'.$nd_travel_permalink.'" class="nd_travel_packages_pg_l1_button nd_travel_border_1_solid_grey nd_travel_padding_10_20 nd_options_second_font_important nd_travel_border_radius_0_important nd_travel_background_color_transparent_important nd_travel_cursor_pointer nd_travel_display_inline_block">'.__('CHI TIẾT','nd-travel').'</a>
 
